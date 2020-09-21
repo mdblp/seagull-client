@@ -1,0 +1,12 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - 10.15.3
+
+install:
+  - npm install
+
+script:
+  - npm audit --registry=https://registry.npmjs.org --audit-level=moderate
