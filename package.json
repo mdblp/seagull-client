@@ -1,6 +1,6 @@
 {
   "name": "tidepool-seagull-client",
-  "version": "0.1.9",
+  "version": "0.1.10-rc1",
   "description": "Client library for seagull, Tidepool's user metadata service.",
   "keywords": [
     "tidepool",
@@ -10,6 +10,9 @@
   "homepage": "https://github.com/tidepool-org/seagull-client",
   "bugs": "https://github.com/tidepool-org/seagull-client/issues",
   "license": "BSD-2-Clause",
+  "publishConfig": {
+    "registry": "https://nexus.ci.diabeloop.eu/repository/your-loops-npm/"
+  },
   "author": {
     "name": "Eric Tschetter",
     "email": "cheddar@tidepool.org",
@@ -23,7 +26,7 @@
   "main": "index.js",
   "repository": "https://github.com/tidepool-org/seagull-client.git",
   "dependencies": {
-    "amoeba": "0.6.0",
+    "amoeba": "0.8.1",
     "request": "2.88.0"
   },
   "devDependencies": {
